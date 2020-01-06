@@ -1,0 +1,29 @@
+{
+  "name": "@sahtivahti/beer-calculator",
+  "version": "0.0.1",
+  "description": "Calculator service for beer recipe calculations",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.coffee",
+    "build": "coffee -c --output build/ index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahtivahti/beer-calculator.git"
+  },
+  "author": "Atte Tarvainen <tarvainen.atte@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sahtivahti/beer-calculator/issues"
+  },
+  "homepage": "https://github.com/sahtivahti/beer-calculator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "brauhaus": "^1.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.0",
+    "nodemon": "^2.0.2"
+  }
+}
