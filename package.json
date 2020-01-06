@@ -1,6 +1,6 @@
 {
   "name": "@sahtivahti/beer-calculator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Calculator service for beer recipe calculations",
   "main": "index.js",
   "scripts": {
